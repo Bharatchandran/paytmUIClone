@@ -1,0 +1,93 @@
+*{
+    font-family: Inter, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 50px;
+    width: 140px;
+}
+ .nav-menu {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+
+ }
+
+ .nav-menu a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+ }
+ .notification{
+    display: flex;
+    justify-content: center;
+    background-color: #FDDC26;
+    height: 50px;
+ }
+ .notification h3{
+    font-weight: 500;
+ }
+ .notification h3 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
+ }
+
+ .main-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+
+ }
+
+ .main-body-img img{
+    height: 400px;
+ }
+
+ .paytm-intro{
+    width: 600px;
+    margin-left: 162px;
+ }
+ .paytm-intro h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+
+ }
+.paytm-intro p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 475px;
+}
+.intro-download{
+    background-color: black;
+    color: white;
+    height: 44px;
+    font-size: 15px;
+    width: max-content;
+    padding: 0 24px;
+    border-radius: 20px;
+}
