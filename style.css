@@ -1,5 +1,7 @@
 *{
     font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 nav{
     width: 100%;
@@ -90,4 +92,113 @@ nav{
     width: max-content;
     padding: 0 24px;
     border-radius: 20px;
+}
+.sub1{
+   display: flex;
+   background-color: skyblue;
+   height: 400px;
+   flex-direction: column;
+   margin: 0;
+   padding: 40px;
+}
+.sub1-title{
+   /* margin-top: 20px; */
+   font-size: 40px;
+   color: white;
+   margin-left: 98px;
+}
+.sub-menu-container{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 20px;
+   margin-top: 50px;
+}
+
+.sub1-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 30px;
+   width: 20px;
+   justify-content: space-between;
+   height: 200px;
+}
+
+.sub-icon{
+   font-size:90px;
+}
+.my-icon {
+   font-size: 70px!important; /* Adjust the value to your desired size */
+}
+
+.sub2{
+   padding: 40px;
+   background-color: rgb(11, 76, 111);
+   margin: 0;
+}
+.sub3{
+   display: flex;
+   flex-direction: column;
+   margin-top: 90px;
+   margin-left: 70px;
+  
+}
+
+.sub3-title{
+   margin-left: 200px;
+}
+.sub3-img{
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.sub3-img img {
+   height: 250px;
+   width: 250px;
+}
+
+.sub3-info{
+   display: flex;
+   flex-direction: column;
+   height:300px;
+   align-items: flex-start;
+   font-size: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.sub3-card{
+   display: flex;
+   background-color: blue;
+   width: 70%;
+   align-self: center;
+}
+.sub3-heading{
+   font-size: 40px;
+}
+.sub3-description{
+   font-size: 15px;
+   line-height: 36px;
+}
+
+.sub3-info-left{
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 50px;
+   width: 800px;
+   
+}
+.sub3-download{
+   background-color: black;
+    color: white;
+    height: 44px;
+    font-size: 15px;
+    width: max-content;
+    padding: 0 24px;
+    border-radius: 20px;
+    border: 0;
 }
